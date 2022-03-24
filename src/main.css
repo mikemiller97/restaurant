@@ -1,0 +1,36 @@
+p, h1 {
+    color: white; 
+}
+
+body {
+    background-color: #121212;
+}
+
+img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+button {
+  background-color: darkgray;
+  color: white;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  margin-bottom: 10%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
